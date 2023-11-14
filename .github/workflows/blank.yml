@@ -29,7 +29,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
+      # Runs a single command using the runners shell
       - name: Run a one-line script
         run: git status
-          
+
+        # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: ls
